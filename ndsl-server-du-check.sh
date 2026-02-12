@@ -2,7 +2,7 @@
 
 # --- 动态阈值与配置 (优先读取环境变量) ---
 # 文件夹阈值，默认 100GB
-DIR_LIMIT_GB=${DIR_LIMIT_GB:-100}
+DIR_LIMIT_GB=${DIR_LIMIT_GB:-5}
 # 文件阈值，默认 1GB
 FILE_LIMIT_GB=${FILE_LIMIT_GB:-1}
 # 排除前缀，多个前缀用空格分隔，例如 "/home/data /home/test"
