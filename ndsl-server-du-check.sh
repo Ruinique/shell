@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- 阈值设定 ---
-DIR_LIMIT_GB=10
+DIR_LIMIT_GB=100
 FILE_LIMIT_GB=1
 
 DIR_LIMIT_BYTES=$(( DIR_LIMIT_GB * 1024 * 1024 * 1024 ))
